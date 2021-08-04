@@ -7,4 +7,4 @@ Implemented API end points with validations of the requests
 Layered Architecture is used in implementation
 
 
-![alt text](https://github.com/sunilanumolu/xflix_backend/blob/main/layered_architecture.png?raw=true)
+![alt text](https://github.com/sunilanumolu/xflix_backend/blob/main/layered_architecture.png?raw=true "Request-Response cycle Architecture")
