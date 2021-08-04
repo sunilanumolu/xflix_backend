@@ -1,6 +1,6 @@
-#XFlix backend using your Node.js, Express and MongoDB skills 
+XFlix backend using your Node.js, Express and MongoDB skills 
 
-Xflix is like a video streaming web platform
+XFlix is like a video streaming web platform
 
 Implemented API end points with validations of the requests
 
