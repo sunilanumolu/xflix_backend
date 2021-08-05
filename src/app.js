@@ -12,6 +12,8 @@ const app = express();
 app.use(express.json());
 
 app.use(express.urlencoded({ extended: true }));
+//below line to make this app work on heroku.
+app.use('*', routes);
 
 app.use('/v1', routes);
 
