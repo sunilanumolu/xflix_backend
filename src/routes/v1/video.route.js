@@ -6,6 +6,7 @@ const videoValidation = require('../../validations/video.validation');
 const router = express.Router();
 
 // Return all available videos according to the query parameters and sortBy query
+router.get('*', validate(videoValidation.filterVideoByParams), videoController.getVideos);//heroku
 router.get('/', validate(videoValidation.filterVideoByParams), videoController.getVideos);
 
 // Create a new video object with all required fields
